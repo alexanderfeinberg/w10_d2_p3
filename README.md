@@ -29,8 +29,8 @@ The router should generate the following endpoints:
 
 - `GET /colors` - send a JSON of `"GET /colors"`
 - `GET /colors/:name` - send a JSON of `"GET /colors/:name"`
-- `POST /colors/:name/css-styles` - send a JSON of `"POST /colors/:name/css-styles"`
-- `DELETE /colors/:name/css-styles/:style` - send a JSON of `"DELETE /colors/:name/css-styles/:style"`
+  - For example, a `GET /colors/purple` request should return a JSON response of
+    `"GET /colors/:name"`
 
 Remember to connect the router to the Express application!
 
